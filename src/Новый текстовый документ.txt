@@ -1,0 +1,26 @@
+GRA-Multiverse-Optimizer/
+  ├─ src/
+  │   ├─ gra_multiverse/
+  │   │   ├─ __init__.py
+  │   │   ├─ core.py          # базовые классы: Level, Goal, Foam
+  │   │   ├─ optimizer.py     # J_multiverse, шаги оптимизации
+  │   │   ├─ llm_module.py    # кейс: анти-галлюцинации / согласование ответов
+  │   │   └─ vpn_module.py    # кейс: VPN / сеть (позже можно заполнить)
+  │   └─ examples/
+  │       ├─ example_llm_ru.ipynb
+  │       ├─ example_llm_en.ipynb
+  │       └─ example_vpn_ru_en.ipynb
+  ├─ tests/
+  │   ├─ test_core.py
+  │   ├─ test_optimizer.py
+  │   └─ test_llm_module.py
+  ├─ docs/
+  │   ├─ ru/
+  │   │   └─ theory_multiverse_gra.md   # твой полный текст теории по-русски
+  │   └─ en/
+  │       └─ theory_multiverse_gra.md   # переведённая/сжатая версия на английском
+  ├─ README.md
+  ├─ LICENSE
+  ├─ pyproject.toml        # или setup.cfg + setup.py, чтобы потом залить на PyPI
+  ├─ requirements.txt
+  └─ .gitignore
