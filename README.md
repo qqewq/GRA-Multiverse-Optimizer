@@ -1,3 +1,4 @@
+<bitsoev oleg> (2026). GRA-Multiverse-Optimizer: Prototype backend for multilevel GRA Meta-Obnulyonka. Zenodo. https://doi.org/10.5281/zenodo.18641300
 # GRA-Multiverse-Optimizer
 
 EN: Prototype backend for multilevel **GRA Meta-Obnulyonka** in a “multiverse” of subsystems.  
@@ -32,3 +33,4 @@ python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt  # если есть
+
