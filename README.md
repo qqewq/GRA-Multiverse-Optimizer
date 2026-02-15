@@ -1,8 +1,11 @@
-<bitsoev oleg> (2026). GRA-Multiverse-Optimizer: Prototype backend for multilevel GRA Meta-Obnulyonka. Zenodo. https://doi.org/10.5281/zenodo.18641300
 # GRA-Multiverse-Optimizer
 
 EN: Prototype backend for multilevel **GRA Meta-Obnulyonka** in a “multiverse” of subsystems.  
-RU: Прототип бэкенда для многоуровневой **GRA Мета-обнулёнки** в виде «мультиверса» подсистем.[cite:22]
+RU: Прототип бэкенда для многоуровневой **GRA Мета-обнулёнки** в виде «мультиверса» подсистем.
+
+If you use this software, please cite / Если вы используете эту библиотеку, пожалуйста, цитируйте:
+
+Bitsoev, Oleg (2026). GRA-Multiverse-Optimizer: Prototype backend for multilevel GRA Meta-Obnulyonka. Zenodo. https://doi.org/10.5281/zenodo.18641300
 
 ---
 
@@ -15,10 +18,10 @@ RU: Прототип бэкенда для многоуровневой **GRA М
   J_{\text{multiverse}}(\mathbf{\Psi}) =
   \sum_{l=0}^K \Lambda_l \sum_{\dim(\mathbf{a})=l} J^{(l)}(\Psi^{(\mathbf{a})})
   \]
-  is minimized by a **cognitive vacuum** state with minimal foam (maximal consistency).[cite:22]
+  is minimized by a **cognitive vacuum** state with minimal foam (maximal consistency).
 - This library provides a minimal numerical skeleton to play with this idea on toy examples (LLM answers, VPN configs).
 
-Подробнее о теории см. `docs/ru/theory_multiverse_gra.md` и `docs/en/theory_multiverse_gra.md`.[cite:22]
+Подробнее о теории см. `docs/ru/theory_multiverse_gra.md` и `docs/en/theory_multiverse_gra.md`.
 
 ---
 
@@ -32,5 +35,5 @@ cd GRA-Multiverse-Optimizer
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-pip install -r requirements.txt  # если есть
 
+pip install -r requirements.txt  # если есть
